@@ -1,0 +1,22 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "Altos Code Assessment",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "build:production": "parcel build index.html"
+  },
+  "author": "Tony Beato",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.20.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
